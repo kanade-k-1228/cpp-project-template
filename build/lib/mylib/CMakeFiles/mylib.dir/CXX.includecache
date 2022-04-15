@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kanade/cpp-project-template/lib/mylib/cpp/mylib.cpp
+../hpp/mylib.hpp
+/home/kanade/cpp-project-template/lib/mylib/hpp/mylib.hpp
+
+/home/kanade/cpp-project-template/lib/mylib/hpp/mylib.hpp
+iostream
+-
+
